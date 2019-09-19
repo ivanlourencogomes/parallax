@@ -1,0 +1,286 @@
+html, body {
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+
+body {
+   padding-bottom: 50px;
+   background-color: white;
+   min-height: 1600px;
+}
+.page-container {
+   padding: 20px 10px;
+   width: 100%;
+   max-width: 650px;
+   margin: auto;
+   text-align: left;
+   background-color: white;
+   
+}
+
+.parallax {
+   
+}
+
+.hero2 {
+   width: 100%;
+   height: 700px;
+   position: relative;
+   display: flex;
+   align-items: center;
+   /* -moz-transform: skew(-45deg);
+   -webkit-transform: skew(-45deg);
+   transform: skew(-45deg); */
+   /* position: absolute;
+   top: 2000%;
+   left: 10%; */
+
+   
+}
+
+.green {
+   background-color: #4ad69a;
+}
+
+.white {
+   background-color: #FFF;
+}
+
+.purple {
+   background-color: #ab4ad6;
+}
+
+.red {
+   background-color: #d8344c;
+}
+
+.hero2 .content {
+
+   font-family: 'Poppins', sans-serif;
+   color: white;
+   text-align: left;
+   margin-left: 10%;
+}
+
+.hero2 .content h2 {
+   font-size: 80px; 
+   line-height: 90px;
+   margin: 0;   
+}
+
+.hero2 .content h3 {
+   font-size: 30px;  
+   margin: 0; 
+}
+
+.hero2 .content button {
+   background-color: transparent;
+   border: 1px solid white;
+   color: white;
+   padding: 12px 20px;
+   font-family: poppins;
+   font-size: 16px;
+   margin-top: 20px;
+   min-width: 200px;
+   transition: 0.5s;
+   cursor: pointer;
+}
+
+.hero2 .content button:hover {
+   background-color: white;
+   color: #ab4ad6;
+   transition: 0.5s;
+  
+}
+
+.hero2 img.hagen {
+   width: 400px;
+   position: absolute;
+   bottom: 0;
+   left: 15%;
+}
+
+.hero2 img.ice-cream {
+   position: absolute;
+   bottom: 0;
+   right: 15%;
+   z-index: 2;
+   width: 380px;
+}
+
+.hero2 img.strawberries {
+   position: absolute;
+   top: 0;
+   left: 20%;
+   z-index: 2;
+}
+
+.hero2 img.coffee {
+   position: absolute;
+   top: 0;
+   left: 20%;
+   z-index: 2;
+}
+
+.hero2 img.coffee-cup {
+   position: absolute;
+   bottom: 5%;
+   right: 20%;
+   z-index: 2;
+   width: 500px;
+}
+
+
+.hero {
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100%;
+   height: 660px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+}
+
+
+.hero h2, .hero h3 {
+   font-family: 'Poppins', sans-serif;
+   color: white;
+   text-shadow: 2px 2px 6px rgba(12,8,9,0.7);
+   position: absolute;
+}
+
+.hero h2 {
+   font-size: 90px;
+   top: 2%;
+   left: 10%;
+   
+
+}
+
+.hero h3 {
+   font-size: 90px;
+   bottom: 4%;
+   right: 10%;
+   font-weight: 500;
+}
+
+.london {
+   background-image: url("../img/london.jpg");
+}
+
+.amsterdam {
+   background-image: url("../img/amsterdam.jpg");
+}
+
+.paris {
+   background-image: url("../img/paris.jpg");
+}
+.porto {
+   background-image: url("../img/porto.jpg");
+}
+
+.madrid {
+   background-image: url("../img/madrid.jpg");
+}
+
+.berlin {
+   background-image: url("../img/berlin.jpg");
+}
+
+.veneza {
+   background-image: url("../img/veneza.jpg");
+}
+
+.rellax {
+   font-family: 'Poppins', sans-serif;
+   font-weight: 500px;
+}
+.page-container h2 {
+   font-size: 36px;
+   text-transform: uppercase;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 500px;
+   margin: 0 0 20px 0;
+   color: #222222;
+}
+
+.page-container p {
+   font-family: 'Lato', sans-serif;
+   letter-spacing: 0.5px;
+   line-height: 26px;
+   font-size: 18px;
+   margin: auto;
+   color: #222222;
+   
+}
+
+.page-container p:not(:last-of-type) {
+   margin-bottom: 24px;
+}
+
+
+
+/* **********************************************************************************************
+***********************************   MEDIA QUERIES   ******************************************* 
+********************************************************************************************** */
+
+
+
+/* Small Screens ****************************************************************************
+/* max-width 640px *********************************************************************/
+
+@media only screen and (max-width: 40em) {
+
+
+}   
+
+/* End of small Screens
+   
+   
+   
+/* Medium Screens ***************************************************************************
+/* min-width 641px and max-width 1023px ************************************************/
+
+@media only screen and (min-width: 40.063em) and (max-width: 63.938em) {
+
+
+}
+
+/* End of Medium Screens
+   
+   
+   
+   
+/* Large Screens ****************************************************************************
+/* min-width 1024px and max-width 1440px ***********************************************/
+
+@media only screen and (min-width: 64em) and (max-width: 90em) { 
+
+   .page-container {
+      width: 1024px;
+      
+   }
+      
+}
+
+/* End of Large Screens
+   
+   
+   
+/* Extra Large Screens **********************************************************************
+/* min-width 1441px ********************************************************************/
+
+@media only screen and (min-width: 90.063em) {
+      
+   .page-container {
+      width: 1320px;
+   }
+      
+            
+}
+
+/* End of Extra Large Screens
+
